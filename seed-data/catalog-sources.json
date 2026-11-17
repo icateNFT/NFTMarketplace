@@ -1,0 +1,403 @@
+{
+ "_about": "Sources for the Terra Ledger catalogue. scripts/catalog-fetch.mjs downloads or renders every image into public/assets/nft/ and writes public/assets/nft/catalog.csv; then run npm run catalog:import. Prices marked in tez are demo prices unless they come from terraledger.org.",
+ "site": [
+  {
+   "code": "TL-0611",
+   "title": "Cascade House",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 500,
+   "editions": 8400,
+   "placed": 4200,
+   "status": "Live",
+   "image": {
+    "unsplash": "1600596542815-ffad4c1539a9"
+   },
+   "description": "A 5,100 sq ft desert-modern residence on a half-acre lot, held on a five-year corporate lease with annual CPI escalation. Scottsdale, Arizona · single-family residential · valuation US$4.20M · target yield 6.1% · US$500 per token.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0614",
+   "title": "The Mercer Block",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 500,
+   "editions": 57200,
+   "placed": 37320,
+   "status": "Live",
+   "image": {
+    "unsplash": "1582407947304-fd86f028f716"
+   },
+   "description": "Ground-floor retail with fourteen floors of office above, 91% leased with a 6.2-year weighted average lease term. Austin, Texas · mixed-use commercial · valuation US$28.60M · target yield 7.4% · US$500 per token.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0618",
+   "title": "Harborline Lofts",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 500,
+   "editions": 33500,
+   "placed": 26800,
+   "status": "Live",
+   "image": {
+    "unsplash": "1502005229762-cf1b2da7c5d6"
+   },
+   "description": "Forty-two converted warehouse loft units two blocks from the waterfront. Stabilised occupancy of 96% across the last eight quarters. Seattle, Washington · multifamily residential · valuation US$16.75M · target yield 5.8% · US$500 per token.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0622",
+   "title": "Juniper Ridge",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 500,
+   "editions": 6200,
+   "placed": 6200,
+   "status": "Live",
+   "image": {
+    "unsplash": "1568605114967-8130f3a36994"
+   },
+   "description": "A six-bedroom timber lodge operating on the short-term rental market. Seasonal revenue, distributed monthly. Park City, Utah · short-term rental · valuation US$3.10M · target yield 9.2% · fully subscribed.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0417",
+   "title": "Cadastral",
+   "creator": "Ilse Verhoeven",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "generative",
+   "price_tez": 180,
+   "editions": 256,
+   "placed": 184,
+   "status": "Live",
+   "image": {
+    "unsplash": "1744173688663-169e78515350"
+   },
+   "description": "Contour fields generated from the public survey data of the six counties we hold property in. Generative, digital-native.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0418",
+   "title": "Ground Truth",
+   "creator": "Mateo Salinas",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 4200,
+   "editions": 12,
+   "placed": 5,
+   "status": "Live",
+   "image": {
+    "unsplash": "1541512416146-3cf58d6b27cc"
+   },
+   "description": "Oil and graphite on linen, 140 × 110 cm. A physical, custodied work held in bonded, climate-controlled storage in Austin.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0421",
+   "title": "Refraction Study",
+   "creator": "Noor Haddad",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 310,
+   "editions": 128,
+   "placed": 96,
+   "status": "Live",
+   "image": {
+    "unsplash": "1680499661732-3cfae4690e1c"
+   },
+   "description": "Real-time WebGL, minted with its own renderer: interlocking translucent solids resolved live in the browser.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0437",
+   "title": "Chroma Deed",
+   "creator": "Beatriz Lund",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 1650,
+   "editions": 24,
+   "placed": 17,
+   "status": "Live",
+   "image": {
+    "unsplash": "1524664399170-77e7118fdb6d"
+   },
+   "description": "Acrylic on board, 90 × 90 cm. Painted responses to twenty-four deeds drawn from the county records, with annual condition reporting.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0806",
+   "title": "Elemental RPS Arena",
+   "creator": "Terra Ledger Games",
+   "studio": "Terra Ledger Games",
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 240,
+   "editions": 250,
+   "placed": 0,
+   "status": "Live",
+   "image": {
+    "png": "https://www.terraledger.org/rsp.png"
+   },
+   "description": "Key art for Elemental RPS Arena, a rock-paper-scissors ladder with 15 collectible tiers, from the Copper Sigil (1 in 2) to the Eternal Singularity (1 in 32,768). Every win unlocks a rarer collectible: claim it, or risk it for the next tier.",
+   "licence": "PROPRIETARY",
+   "source_url": "https://www.terraledger.org/games",
+   "attribution": null
+  }
+ ],
+ "met": [
+  {
+   "id": 437998,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 5935,
+   "editions": 25,
+   "meta": {
+    "title": "Olive Trees",
+    "artist": "Vincent van Gogh",
+    "culture": null,
+    "date": "1889",
+    "medium": "Oil on canvas",
+    "creditLine": "The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1998, Bequest of Walter H. Annenberg, 2002",
+    "url": "https://www.metmuseum.org/art/collection/search/437998",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1946.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1946.jpg"
+   }
+  },
+  {
+   "id": 267426,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 520,
+   "editions": 50,
+   "meta": {
+    "title": "Julia Jackson",
+    "artist": "Julia Margaret Cameron",
+    "culture": null,
+    "date": "1867",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Purchase, Joseph Pulitzer Bequest, 1996",
+    "url": "https://www.metmuseum.org/art/collection/search/267426",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DT1121.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DT1121.jpg"
+   }
+  },
+  {
+   "id": 732755,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 920,
+   "editions": 50,
+   "meta": {
+    "title": "[Yosemite National Park, California]",
+    "artist": "Carleton E. Watkins",
+    "culture": null,
+    "date": "ca. 1878",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Gilman Collection, Gift of The Howard Gilman Foundation, 2005",
+    "url": "https://www.metmuseum.org/art/collection/search/732755",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP136859.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP136859.jpg"
+   }
+  },
+  {
+   "id": 204759,
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 1940,
+   "editions": 40,
+   "meta": {
+    "title": "Head of Medusa",
+    "artist": "Antonio Canova",
+    "culture": null,
+    "date": "1806–7",
+    "medium": "Plaster cast, with modern metal rod",
+    "creditLine": "Fletcher Fund, 1967",
+    "url": "https://www.metmuseum.org/art/collection/search/204759",
+    "image": "https://images.metmuseum.org/CRDImages/es/original/DP-14050-001.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP-14050-001.jpg"
+   }
+  },
+  {
+   "id": 268887,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 225,
+   "editions": 100,
+   "meta": {
+    "title": "[Salisbury Cathedral]",
+    "artist": "Unknown",
+    "culture": null,
+    "date": "1850s",
+    "medium": "Albumen silver print from paper negative",
+    "creditLine": "David Hunter McAlpin Fund, 1946",
+    "url": "https://www.metmuseum.org/art/collection/search/268887",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP115201.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP115201.jpg"
+   }
+  },
+  {
+   "id": 629831,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 515,
+   "editions": 100,
+   "meta": {
+    "title": "Amalfi, Cathedral",
+    "artist": "Firmin-Eugène Le Dien",
+    "culture": null,
+    "date": "1853",
+    "medium": "Salted paper print from a waxed paper negative",
+    "creditLine": "Purchase, Alfred Stieglitz Society Gifts, 2013",
+    "url": "https://www.metmuseum.org/art/collection/search/629831",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP322073.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP322073.jpg"
+   }
+  },
+  {
+   "id": 343526,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 435,
+   "editions": 100,
+   "meta": {
+    "title": "Architectural Drawing for a Chapel and Hospital",
+    "artist": "de la Maire",
+    "culture": null,
+    "date": "ca. 1767",
+    "medium": "Etching counterproof and wash",
+    "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1958",
+    "url": "https://www.metmuseum.org/art/collection/search/343526",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP818894.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP818894.jpg"
+   }
+  },
+  {
+   "id": 436678,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 1550,
+   "editions": 60,
+   "meta": {
+    "title": "The Visit",
+    "artist": "Pieter de Hooch",
+    "culture": null,
+    "date": "ca. 1657",
+    "medium": "Oil on wood",
+    "creditLine": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+    "url": "https://www.metmuseum.org/art/collection/search/436678",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145400.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145400.jpg"
+   }
+  },
+  {
+   "id": 437246,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 630,
+   "editions": 60,
+   "meta": {
+    "title": "Interior of Saint Peter's, Rome",
+    "artist": "Giovanni Paolo Panini",
+    "culture": null,
+    "date": "after 1754",
+    "medium": "Oil on canvas",
+    "creditLine": "Purchase, 1871",
+    "url": "https://www.metmuseum.org/art/collection/search/437246",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP123936.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123936.jpg"
+   }
+  },
+  {
+   "id": 9790,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 610,
+   "editions": 60,
+   "meta": {
+    "title": "Wentworth House",
+    "artist": null,
+    "culture": "American",
+    "date": "1695–1700",
+    "medium": "Wood, oak, pine",
+    "creditLine": "Sage Fund, 1926",
+    "url": "https://www.metmuseum.org/art/collection/search/9790",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT239187.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT239187.jpg"
+   }
+  },
+  {
+   "id": 10150,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 1225,
+   "editions": 40,
+   "meta": {
+    "title": "Merced River, Yosemite Valley",
+    "artist": "Albert Bierstadt",
+    "culture": "American",
+    "date": "1866",
+    "medium": "Oil on canvas",
+    "creditLine": "Gift of the sons of William Paton, 1909",
+    "url": "https://www.metmuseum.org/art/collection/search/10150",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT2961.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2961.jpg"
+   }
+  },
+  {
+   "id": 55736,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 1035,
+   "editions": 40,
+   "meta": {
+    "title": "South Wind, Clear Sky (Gaifū kaisei), also known as Red Fuji, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)",
+    "artist": "Katsushika Hokusai",
+    "culture": "Japan",
+    "date": "ca. 1830–32",
+    "medium": "Woodblock print; ink and color on paper",
+    "creditLine": "Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939",
+    "url": "https://www.metmuseum.org/art/collection/search/55736",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP141053.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP141053.jpg"
+   }
+  }
+ ],
+ "studio": [
+  {
+   "seed": 101,
+   "style": "flow",
+   "title": "Flow Ledger",
+   "price_tez": 420,
+   "editions": 128
+  }
+ ]
+}

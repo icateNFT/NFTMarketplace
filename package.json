@@ -1,0 +1,42 @@
+{
+  "name": "nft-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/setup.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/setup.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "node scripts/lint.mjs",
+    "db:setup": "node scripts/db-setup.mjs",
+    "db:seed": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/seed.mjs",
+    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --import ./tests/hooks.mjs --test tests/*.test.ts",
+    "catalog:import": "node scripts/catalog-import.mjs",
+    "creators:photos": "node scripts/creator-photos.mjs",
+    "catalog:fetch": "node scripts/catalog-fetch.mjs",
+    "setup": "node scripts/setup.mjs"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "drizzle-orm": "^0.45.3",
+    "next": "16.3.4",
+    "pg": "^8.23.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "form-data": "^4.0.6",
+    "archiver": "^7.0.0",
+    "crypto-js": "^4.2.0",
+    "uiohook-napi": "^1.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
